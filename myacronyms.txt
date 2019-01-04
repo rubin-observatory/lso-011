@@ -19,5 +19,8 @@ QSERV:Query Services (LSST Custom database)
 MREN:Montenegrin Research and Education Network
 EIE:European Industrial Engineering  - Italian engineering company (Dome)
 LDM:LSST Data Management (document handle)
+LSO:LSST Science Operations (document handle)
 PSTN:Project Science Technical Note
+OPS:OPerationS 
+
 
