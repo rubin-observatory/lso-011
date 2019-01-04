@@ -22,5 +22,6 @@ LDM:LSST Data Management (document handle)
 LSO:LSST Science Operations (document handle)
 PSTN:Project Science Technical Note
 OPS:OPerationS 
+ZTF:Zwicky Transient Facility
 
 

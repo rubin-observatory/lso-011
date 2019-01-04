@@ -6,12 +6,29 @@ for efficient operations. This policy balancing
 early science with the importance of ensuring fair access to LSST data for LSST Data Rights
 holders is still being decided but we outline a likely scenario here.
 
+\subsection{Commissioning Interface} \label{sect:cominterface}
+
+LSST will make a best effort to distribute commissioning data through an early version of the
+Science User Interface that the community will use to access LSST data during 10-year survey
+operations. However, before full operations, the LSST’s Science Platform and suite of user
+services will be operating at limited capacity and with limited functionality.
+\{\bf TBD - this is actually tricky with authentication}
+The minimum data
+products to be made available would be through flat files (e.g. FITS images and tables), the
+desired distribution would be through a still emerging DAC (i.e. without full services), and with
+provisional access to file systems and databases.
+
+Some user groups will be interested in the bulk transfer of commissioning data from the LSST
+DAC at NCSA to their own facility. The technical details and possible cost of such bulk data
+distribution is TBD. This cost will be supported by the user groups, and not by LSST.
 
 \subsection{Alerts} \label{sect:alerts}
 Early alert stream data will also be distributed, possibly with substantial latency, to
 familiarize the community with the planned format and content of the alert stream.
 At best-effort alert stream may be distributed around August 2021.
 
+\subsubsection{Distribution Mechanism}
+Kafka/AVRO based system currently being tested on ZTF.
 
 \subsection{ComCam Release - end 2020}
 Currently ComCam ends  around August 2020 - allowing a few months for cleaning and documenting the
