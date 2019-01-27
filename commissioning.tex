@@ -1,0 +1,43 @@
+\section{Commissioning Data Releases} \label{sect:commissioning}
+
+Distributing commissioning data to the LSST data rights community brings the mutual benefits
+of preparing the community for LSST data and giving the LSST team the opportunity to prepare
+for efficient operations. This policy balancing
+early science with the importance of ensuring fair access to LSST data for LSST Data Rights
+holders is still being decided but we outline a likely scenario here.
+
+\subsection{Commissioning Interface} \label{sect:cominterface}
+
+LSST will make a best effort to distribute commissioning data through an early version of the
+Science User Interface that the community will use to access LSST data during 10-year survey
+operations. However, before full operations, the LSST’s Science Platform and suite of user
+services will be operating at limited capacity and with limited functionality.
+\{\bf TBD - this is actually tricky with authentication}
+The minimum data
+products to be made available would be through flat files (e.g. FITS images and tables), the
+desired distribution would be through a still emerging DAC (i.e. without full services), and with
+provisional access to file systems and databases.
+
+Some user groups will be interested in the bulk transfer of commissioning data from the LSST
+DAC at NCSA to their own facility. The technical details and possible cost of such bulk data
+distribution is TBD. This cost will be supported by the user groups, and not by LSST.
+
+\subsection{Alerts} \label{sect:alerts}
+Early alert stream data will also be distributed, possibly with substantial latency, to
+familiarize the community with the planned format and content of the alert stream.
+At best-effort alert stream may be distributed around August 2021.
+
+\subsubsection{Distribution Mechanism}
+Kafka/AVRO based system currently being tested on ZTF.
+
+\subsection{ComCam Release - end 2020}
+Currently ComCam ends  around August 2020 - allowing a few months for cleaning and documenting the
+ComCam Images and source catalogs  could be available 3-6 months later hence by end of 2020 {\bf iff} the schedule holds and ComCam finishes mid 2020.
+
+\subsection{Commissioning Full Camera  Release - end Q3 2021} \label{sect:cfc}
+Currently commissioning of the Full Camera ends  around March 2021 before the mini surveys start.
+Again allowing for clean up and documenting,  Images and source catalogs  could be available 3-6 months later around September 2021.
+
+\subsection{Mini Surveys  Release - end 2021}
+The Mini-Surveys ends  around August 2021 - they commence directly as commissioning the Full Camera Ends  hence this data release may be affected by preparations of the prior release \secref{sect:cfc}.
+Hence, effort permitting,  Images and source catalogs from the mini surveys may be available by end of 2021.
